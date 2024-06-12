@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color:rgb(49, 48, 48);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px; 
+        }
+        header > h1{
+            color: white;
+        }
+        header{
+            border-radius: 5px 5px 0px 0px;
+            background-color: rgb(0, 0, 0);
+            padding: 5px;
+            margin: 10px; 
+            box-shadow: 2px 2px 2px 2px red;
+
+        }
+        nav{
+            border-radius:0px 0px 5px 5px rgb(0, 0, 0);
+            background-color: lightgray;
+            box-shadow: 2px 2px 2px red;
+            
+
+            
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+        nav > a {
+            text-decoration: none;
+            padding: 10px;
+            color: rgb(0, 0, 0);
+            
+        }
+        main{
+            box-shadow: 2px 2px 2px 2px red;
+            border-radius: 0px 0px 5px 5px;
+            background-color: white;
+            padding: 10px; 
+            margin: 10px; 
+        }
+
+        footer{
+            background-color: #000000;
+            text-align: center;
+            color: white;
+            padding: 5px;
+        }
+        
+        footer > p {
+            margin:0px;
+        }
+
+        article{
+            background-color: rgb(170, 169, 169);
+            padding: 20px;
+        }
+        article > aside {
+            background-color: lightgray;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            margin: 20px;
+            border-radius: 50px;
+        }
+        div{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"> 
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Trabahos com células tronco</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ex, beatae quis magnam nobis itaque iste quod, qui inventore ipsum id dolores labore numquam veritatis nemo eum iure, molestiae nulla?</p>
+                <aside>
+                    <p>Escrito por Danrley Cruz</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

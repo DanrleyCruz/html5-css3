@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'IDroid' ;
+    src: url('fontes/idroid.otf') format('opentype'); 
+}
+
+header{
+    background-image: linear-gradient(to bottom,#82D9A0,#1A5C38);
+    background-color: #29a75f;
+    color: white;
+    padding: 10px;
+}
+h1{
+    font-family: IDroid ;
+}
+header > h1{
+        text-align: center;
+}
+header > h3{
+        text-align: center;
+}
+a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #84E1AD;
+}
+body{
+    background-color: #53d683b6;
+    margin: 0px;
+}
+main{
+    text-align: justify;
+    text-indent: 50px;
+    background-color: #FFFFFF;
+    margin: 0px 200px 0px 200px; 
+    padding:10px 15px 10px 15px ;
+    box-shadow:0px 0px 5px 1px #20633e;
+    border-radius: 0px 0px 10px 10px;
+
+}
+h4{
+
+    text-align: center;
+    font-weight: lighter;
+}
+.link2{
+    color: #1A5C38;
+    font-weight:bold;
+}
+.primeiro{
+    font-family: ;
+    text-align: left;
+    color:#175a35
+}
+main > strong{
+    color:#175a35;
+}
+strong{
+    color:#18412a;
+}
+.bugdroid{
+    margin: 0px 300px 0px 250px;
+}
+iframe{
+    width: 800px;
+    padding: 0px 0px 0px 17px;
+}
+h3{
+    background-color: #2aa160;
+    margin: 5px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    color:white;
+    padding: 5px;
+}
+
+div{
+    background-color: #a2d4b3;
+    padding: 5px 5px 5px 5px ;
+    border: 2px solid  #a2d4b3;
+    border-radius: 3px;
+}
+li{
+    text-decoration: underline;
+}
+
+
+footer{
+    background-color:#1B5936 ;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 15px 0px 0px 0px;
+}

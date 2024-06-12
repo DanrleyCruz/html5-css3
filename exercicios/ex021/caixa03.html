@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordsa Personalizada</title>
+    <style>
+        h1{
+            border: 10px solid black; /* ao invés de colocar cor, coloque transparent , para nao afetar seu navegador*/
+            padding: 10px;
+            border-image-source: '(borda.png)';
+            border-image-slice: 17px ;
+            border-image-repeat: repeat ;
+            /* 
+            o source é o caminho do arquivo.
+            o slice é quanto vai ficar fatiado.
+            o repeat é pra repetir a borda.
+            e temos o short hand, que é border-image: caminho do arquivo, slice, repeat; .
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Borda</h1>
+</body>
+</html>
