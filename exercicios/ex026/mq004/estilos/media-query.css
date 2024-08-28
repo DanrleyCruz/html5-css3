@@ -1,3 +1,40 @@
 @charset "UTF-8";
 
 /* Todas as demais mídias*/
+
+/* Tipical device breakpoints
+pequenas telas: até 600px
+celular: 600 até 768px
+tablet: 768 até 992
+desktop: 992 até 1200px
+grandes telas: acima de 1200 px
+*/
+
+
+/* usaríamos essas configs, se nao tivessemos feito o site com o mobile first, como ja fizemos, ela pode ser ignorada.
+
+@media screen and (max-width: 600px){
+
+}
+
+@media screen and (min-width:600px) and (max-width: 768px) {
+    
+}
+
+*/
+
+@media print {  /* iMPRESSÃO*/
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px)  { /* TABLET */
+    
+}
+
+@media screen and (min-width:992px) and (max-width: 1200px) { /* DESKTOP */
+    
+}
+
+@media screen and (min-width:1200px) { /* GRANDES TELAS */
+    
+}
