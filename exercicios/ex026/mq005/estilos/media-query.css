@@ -19,6 +19,10 @@ Grandes telas: acima de 1200px
         display: block;
     }
 
+    main{
+        width: 768px;
+    }
+
     menu > ul > li{
         display: inline-block;
         width: 100px;
